@@ -18,7 +18,7 @@ function AboutSection() {
             <Description>
                 <div className='title'>
                     <Hide>
-                        <motion.h2 variants={titleAnim} >we work to make</motion.h2>
+                        <motion.h2 variants={titleAnim} >I work to make</motion.h2>
                     </Hide>
                     <Hide>
                         <motion.h2 variants={titleAnim} >your <span>dreams</span> come</motion.h2>
@@ -30,7 +30,7 @@ function AboutSection() {
                 </div>
                 <motion.p variants={fade}>Cotact us for any photography or vediography ideas that you have 
                  we have profesionals with amazing skills</motion.p>
-                 <motion.button variants={fade}>Contact Me</motion.button>
+                 <motion.button variants={fade}><a href='https://www.linkedin.com/in/kawan-edres-babb66216/n'>Contact Me</a></motion.button>
 
               
 

@@ -33,8 +33,8 @@ function App() {
      
      <AnimatePresence exitBeforeEnter>
      <Routes location={location} key={location.pathname}>
-
-     <Route exact  path="/" element={<AboutUs />} />
+     
+     <Route exact key="/" component="/home"  path="/" element={<AboutUs />} />
      <Route exact path="/work" element={ <OurWork />} />
      <Route exact path="/work/:id" element={ <MovieDetail />} />
      <Route exact path="/contact" element={<ContactUs />}/>
