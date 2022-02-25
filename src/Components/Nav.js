@@ -14,7 +14,7 @@ function Nav() {
       </h1>
       <ul>
         <li>
-          <NavLink  to="/"  className={({ isActive }) => (isActive ? 'active' : 'inactive')}>1.About</NavLink>
+          <NavLink  to="/about"  className={({ isActive }) => (isActive ? 'active' : 'inactive')}>1.About</NavLink>
           <Line
             transition={{ duration: 0.75 }}
             initial={{ width: "0%" }}
